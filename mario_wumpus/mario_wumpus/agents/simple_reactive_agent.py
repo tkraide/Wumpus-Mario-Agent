@@ -10,7 +10,7 @@ from ..core.models import Percept
 class SimpleReactiveAgent(BaseAgent):
     """
     Estratégia:
-    - se vê brilho, usa `GRAB`;
+    - se vê brilho, usa Rescue;
     - se sente fedor e ainda tem fireball, às vezes mira e sempre atira;
     - se sente fedor mas não tem fireball, ou sentir vento tenta voltar para baixo ou para esquerda(fugir do perigo);
     - se não sente nada, tenta ir para direita ou para cima.
